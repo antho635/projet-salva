@@ -412,6 +412,10 @@ h4,
     font-size: 1.5rem;
 }
 
+.titre4 {
+    margin-bottom: 30px;
+}
+
 h5,
 .h5 {
     font-size: 1.25rem;
@@ -509,6 +513,7 @@ mark,
 }
 
 .img-fluid {
+    width: 100%;
     max-width: 100%;
     height: 100%;
 }
@@ -606,7 +611,7 @@ pre code {
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
-        padding-bottom: 70px;
+        padding-bottom: 2%;
     }
 }
 
@@ -4403,6 +4408,7 @@ input[type="button"].btn-block {
 .navbar-brand:hover,
 .navbar-brand:focus {
     text-decoration: none;
+    color: #fff;
 }
 
 .navbar-nav {
