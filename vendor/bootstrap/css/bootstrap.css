@@ -43,6 +43,10 @@
 }
 
 html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
     font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -1898,11 +1902,15 @@ pre code {
 }
 
 @media (max-width: 575.98px) {
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
     .table-responsive-sm {
         display: block;
         width: 100%;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
     }
     .table-responsive-sm>.table-bordered {
         border: 0;
@@ -10344,6 +10352,16 @@ a.text-dark:focus {
     .table .thead-dark th {
         color: inherit;
         border-color: #dee2e6;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
     }
 }
 
