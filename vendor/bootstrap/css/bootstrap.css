@@ -10355,7 +10355,7 @@ a.text-dark:focus {
     }
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 867px) {
     body {
         overflow-x: hidden !important;
     }
