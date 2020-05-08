@@ -506,7 +506,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
 }
 
@@ -11160,6 +11160,10 @@ h6 {
   text-align: justify;
   margin: 30px 150px;
   line-height: 3.7;
+}
+
+.img-fluid {
+  width: 160%;
 }
 
 /*--------------------------------------------------------------
