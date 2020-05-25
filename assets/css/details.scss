@@ -26,7 +26,7 @@
             }
             
             .cards-1 .card {
-                max-width: 21rem;
+                width: 100%;
                 margin-right: auto;
                 margin-bottom: 4.5rem;
                 margin-left: auto;
@@ -983,7 +983,6 @@
                 /* Services */
                 .cards-1 .card {
                     display: inline-block;
-                    max-width: 17.125rem;
                     vertical-align: top;
                 }
                 .cards-1 .col-lg-12 div.card {
@@ -1126,7 +1125,11 @@
                 /* end of customers */
                 /* Services */
                 .cards-1 .card {
-                    max-width: 21rem;
+                    width: 100%;
+                    max-width: 50%;
+                }
+                li {
+                    list-style: none;
                 }
                 .cards-1 .col-lg-12 div.card:nth-child(3n+2) {
                     margin-right: 2.875rem;
