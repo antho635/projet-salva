@@ -49,6 +49,32 @@ h6 {
   font-style: normal;
 }
 
+.icon-details {
+  margin: 10px auto;
+  color: #3498db;
+}
+
+.cadre,
+.cadre2 {
+  margin: 5px, auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cadre {
+  margin: 20px auto;
+  background-color: #bbdefb;
+}
+
+.cadre2 {
+  margin: 20px auto;
+  background-color: #b3e5fc;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
