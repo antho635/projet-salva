@@ -3,7 +3,7 @@
 /************************/
 #services {
   display: block;
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
@@ -1180,5 +1180,7 @@
 
 .details {
   line-height: 2;
+  list-style: none;
+  font-size: 1.5em;
 }
 /*# sourceMappingURL=details.css.map */

@@ -3,7 +3,7 @@
 /************************/
 #services {
   display: block;
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
@@ -1180,6 +1180,8 @@
 
 .details {
   line-height: 2;
+  list-style: none;
+  font-size: 1.5em;
 }
 
 /*!
@@ -12385,7 +12387,7 @@ h6 {
 }
 
 ul .details {
-  font-size: 1, 8em;
+  font-size: 1.8em;
 }
 
 /*--------------------------------------------------------------
