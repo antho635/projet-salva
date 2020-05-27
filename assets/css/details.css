@@ -1183,4 +1183,10 @@
   list-style: none;
   font-size: 1.5em;
 }
+
+#portfolio-details .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=details.css.map */
