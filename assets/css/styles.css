@@ -527,7 +527,7 @@ ul .details {
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -1250,6 +1250,15 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+}
+
+#teamdim {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
 }
 
 .team .member .social {
