@@ -1771,8 +1771,8 @@ section {
     right: 0;
     bottom: 0;
     left: 0;
-    background: -webkit-gradient(linear, left top, right, from(#c77800), color-stop(#c77800), color-stop(#ba68c8), color-stop(#ba68c8), to(#3f51b5));
-    background: linear-gradient(to right bottom, #c77800, #c77800, #ba68c8, #ba68c8, #3f51b5);
+    background: -webkit-gradient(linear, left, right, from(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#ba68c8), to(#8559da));
+    background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
     mix-blend-mode: screen;
 }
 
