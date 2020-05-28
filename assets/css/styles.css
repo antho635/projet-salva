@@ -1958,8 +1958,8 @@ section {
 
 .trait:hover:after {
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#c77800), color-stop(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#9c6996), to(#8559da));
-  background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
+  background: -webkit-gradient(linear, left top, right bottom, from(#c77800), color-stop(#c77800), color-stop(#faaa54), color-stop(#faaa54), color-stop(#9c6996), to(#8559da));
+  background: linear-gradient(to right bottom, #c77800, #c77800, #faaa54, #faaa54, #9c6996, #8559da);
 }
 
 .m-2 {
@@ -1989,7 +1989,7 @@ section {
     padding: 0;
   }
   #carte-m2 {
-    width: 90%;
+    width: 95%;
     height: auto;
     padding-bottom: 30px;
     margin-bottom: 30px;
