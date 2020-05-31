@@ -50,15 +50,12 @@
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="index.html">Accueil</a></li>
-                    <li><a href="index.html#about">À propos</a></li>
+                    <li><a href="economique.html#devis">Devis</a></li>
                     <!-- <li><a href="index.html#services">Les différents facteurs</a></li> -->
-                    <li class="drop-down"><a href="">Formules</a>
-                        <ul>
-                            <li><a href="economique.html">ÉCONOMIQUE</a></li>
-                            <li><a href="exellence.html">EXCELLENCE</a></li>
-                            <li><a href="detail.html">DÉTAILS</a></li>
-                        </ul>
-                    </li>
+                    <ul>
+                        <li><a href="economique.html#essentiel">essentiel</a></li>
+
+                    </ul>
                     <li><a href="index.html#team">Tarification main d'oeuvre</a></li>
                     <li><a href="index.html#contact">Contact</a></li>
                 </ul>
@@ -78,33 +75,31 @@
         </section>
         <!-- End Breadcrumbs -->
 
-        <!-- ======= Portfolio Details Section ======= -->
+        <!-- ======= Portfolio Details Section luxe ======= -->
         <section id="portfolio-details" class="portfolio-details">
-            <div class="container">
+            <div id="prenium" class="container">
 
                 <div class="row">
 
                     <div class="col-lg-8">
-                        <h2 class="portfolio-title">La formule esseniel</h2>
+                        <!--<h2 class="portfolio-title">Pour les options tout compris !</h2>-->
                         <div class="owl-carousel portfolio-details-carousel">
-                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/portfolio/prenium.png" class="img-option" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-4 portfolio-info">
-                        <h3>FORMULE STANDART</h3>
-                        <ul>
-                            <li><strong>ex:Emballage</strong>: détails emballage</li>
-                            <li><strong>ex:poids</strong>: détails poids</li>
-                            <li><strong>ex:sans ascenseur</strong>: details ascenseur</li>
-                            <li><strong>ex:remise a la nouvelle adresse</strong>: details sur adresse</li>
+                        <ul class="liste-option">
+                            <li><strong>Option 1 :</strong><br /> Nous nous occupons de l'évacuation des déchets en déchèterie e fin de prestation.</li>
+                            <li><strong>Option 2 :</strong><br /> Nous nous occupons de monter/démonter vos meubles (30€/h).
+                            </li>
+                            <li><strong>Option 3 :</strong><br /> Option luxe qui couvre toutes les options ci-dessus.
+                            </li>
                         </ul>
 
-                        <p>
-                            Formule Standard (le client emballe le non fragile, le déménageur emballe et protège tout ce qui est fragile et s’occupe de la manutention et du transport)
-                        </p>
+                        <!--<p>
+                            Cette formule entrée de gamme permet de bénéficier d'un déménagement professionnel à un prix abordable. (le client prépare et emballe, le déménageur s’occupe de la manutention et du transport)
+                        </p>-->
                     </div>
 
                 </div>
@@ -112,6 +107,54 @@
             </div>
         </section>
         <!-- End Portfolio Details Section -->
+        <!--------- devis ------------>
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Demandez votre devis !</h2>
+                </div>
+
+                <div id="devis">
+
+
+                    <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Nom" data-rule="minlen:4" data-msg="minimum 4 caractères" />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="veuillez rentrer une adresse mail valide" />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="adresse actuel" data-rule="minlen:4" data-msg="Veuillez saisir votre adresse actuel" />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="veuillez detailler domicile" placeholder="detailler votre domicile"></textarea>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="veuillez detailler votre demande" placeholder="précision particulière"></textarea>
+                                <div class="validate"></div>
+                            </div>
+
+                            <div class="mb-3">
+                                <div class="loading">Patientez</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Votre message a bien été envoyé. Nous vous remercions!</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Envoyé</button></div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End devis -->
 
     </main>
     <!-- End #main -->

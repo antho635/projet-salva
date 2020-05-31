@@ -14110,6 +14110,18 @@ section {
 }
 
 /*englobe menu2*/
+/*====== devis ========*/
+#devis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*====== devis ========*/
 /*titre coloré menu2*/
 .titrecouleurm2 {
   display: -webkit-box;
