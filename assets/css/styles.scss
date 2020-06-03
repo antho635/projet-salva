@@ -86,6 +86,13 @@ ul .details {
     justify-content: center;
 }
 
+.container-flex {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -1712,33 +1719,6 @@ section {
 }
 
 
-/*============ details 2 ============*/
-
-#carte-m2 {
-    background-color: #fdf5fe;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: auto;
-    margin: auto;
-    margin-bottom: 80px;
-    padding-top: 50px;
-    background-color: #e1f5fe;
-}
-
-.bloc-page-m2 {
-    background-color: #fff;
-}
-
-#box-m2 {
-    display: flex;
-    flex-direction: column;
-}
-
-
-/*englobe menu2*/
-
-
 /*====== devis ========*/
 
 #devis {
@@ -1749,228 +1729,6 @@ section {
 
 
 /*====== devis ========*/
-
-
-/*titre coloré menu2*/
-
-.titrecouleurm2 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-.gradient-m2 {
-    text-align: center;
-    font-size: 4em;
-    display: inline-flex;
-    justify-content: center;
-    margin: auto;
-    width: 100%;
-}
-
-.gradient-m2 {
-    position: relative;
-    color: #000;
-    background: #fff;
-    mix-blend-mode: multiply;
-}
-
-.gradient-m2::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: -webkit-gradient(linear, left, right, from(#c77800), color-stop(#faaa54), color-stop(#ba68c8), color-stop(#ba68c8), to(#8559da));
-    background: linear-gradient(to right, #c77800, #c77800, #faaa54, #ba68c8, #9c6996, #8559da);
-    mix-blend-mode: screen;
-}
-
-
-/*titre coloré menu2*/
-
-
-/*communs menu2*/
-
-.entree-m2 .plat-m2 .dessert-m2 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 3%;
-}
-
-.englobe-m2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-    width: 100%;
-    margin: 70px auto;
-}
-
-.icon-m2,
-.icon-m2-2 {
-    display: inline-flex;
-    vertical-align: middle;
-    width: 33%;
-    height: 25px;
-    align-self: center;
-    margin: auto;
-}
-
-.icon-m2-2 {
-    transform: rotate(180deg);
-}
-
-.m-2,
-.m-3,
-.m-4 {
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 2.5em;
-    font-weight: lighter;
-    -webkit-text-size-adjust: auto;
-}
-
-.li-m2-1,
-.li-m2-2,
-.li-m2-3 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    padding-bottom: 20px;
-}
-
-.li-m2-1 {
-    color: #c77800;
-}
-
-.li-m2-2 {
-    color: #ba68c8;
-}
-
-.li-m2-3 {
-    color: #3f51b5;
-}
-
-
-/*communs menu2*/
-
-
-/*entree menu2*/
-
-.ul-m2 {
-    font-size: 1.9em;
-    padding: 0;
-    margin: 60px;
-    list-style: none;
-}
-
-.trait:after {
-    content: '';
-    display: block;
-    bottom: 0;
-    left: 0;
-    height: 4px;
-    width: 0;
-    background: transparent;
-    transition: width .7s ease, background-color .7s ease;
-}
-
-.trait:hover:after {
-    width: 100%;
-    background: -webkit-gradient(linear, top left, from(#c77800), color-stop(#faaa54), color-stop(#faaa54), color-stop(#ba68c8), to(#8559da));
-    background: linear-gradient(to right bottom, #c77800, #c77800, #faaa54, #faaa54, #9c6996, #8559da);
-}
-
-.m-2 {
-    color: #c77800;
-}
-
-
-/*entree menu2*/
-
-
-/*plats menu2*/
-
-.m-3 {
-    color: #ba68c8;
-}
-
-
-/*plats menu2*/
-
-
-/*desserts menu2*/
-
-.m-4 {
-    color: #3f51b5;
-}
-
-
-/*desserts menu2*/
-
-
-/*listes des plats menu2*/
-
-
-/*menu2 responsive*/
-
-@media (max-width: 980px) {
-    #container-m-2 {
-        width: 100%;
-        height: auto;
-        margin: 0;
-        padding: 0;
-    }
-    #carte-m2 {
-        width: 95%;
-        height: auto;
-        padding-bottom: 30px;
-        margin-bottom: 30px;
-    }
-    .gradient-m2 {
-        font-size: 3em;
-    }
-    .trait:after {
-        transition: none;
-    }
-    .m-2,
-    .m-3,
-    .m-4 {
-        margin: 20px auto;
-        font-size: 1.5em;
-        width: auto;
-    }
-    .englobe-m2 {
-        flex-direction: column;
-        margin-bottom: 50px;
-        ;
-    }
-    .icon-m2,
-    .icon-m2-2 {
-        width: 30%;
-    }
-    .icon-m2 {
-        transform: none;
-    }
-    .ul-m2 {
-        font-size: 1.7em;
-        margin: auto;
-        padding: 5px;
-    }
-    .li-m2-1,
-    .li-m2-2,
-    .li-m2-3 {
-        flex-direction: column;
-        width: 100%;
-        justify-content: space-between;
-        text-align: center;
-    }
-}
 
 
 /*============ details 2 ============*/
