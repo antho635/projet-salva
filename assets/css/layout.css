@@ -12421,6 +12421,59 @@ ul .details {
           flex-direction: column;
 }
 
+/****************************************************
+ * 	Push Button
+ *****************************************************/
+.push_button {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  color: #FFF;
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: solid 1px #2b84d3;
+  background: #2b84d3;
+  text-align: center;
+  padding: 20px 30px;
+  font-size: 25px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.push_button:active {
+  -webkit-box-shadow: 0px 2px 0px #84261a;
+  box-shadow: 0px 2px 0px #84261a;
+  position: relative;
+  top: 7px;
+}
+
+.push_button-volume {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  color: #FFF;
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: solid 1px #2b84d3;
+  background: #2b84d3;
+  text-align: center;
+  padding: 20px 30px;
+  font-size: 25px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.push_button-volume:active {
+  -webkit-box-shadow: 0px 2px 0px #84261a;
+  box-shadow: 0px 2px 0px #84261a;
+  position: relative;
+  top: 7px;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
