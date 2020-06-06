@@ -12452,12 +12452,12 @@ ul .details {
 .push_button-volume {
   position: relative;
   width: 100%;
-  max-width: 500px;
+  max-width: 350px;
   color: #FFF;
   display: block;
   text-decoration: none;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 45px;
   border: solid 1px #2b84d3;
   background: #2b84d3;
   text-align: center;
@@ -13204,6 +13204,7 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
+  width: 100%;
 }
 
 .services .icon-box::before {
