@@ -17,6 +17,8 @@
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
+  height: 10%;
+  max-height: 50px;
 }
 
 .tabs ul li {
@@ -40,6 +42,11 @@
       flex-wrap: wrap;
   -ms-flex-preferred-size: 1;
       flex-basis: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
 }
 
 .right {
@@ -53,6 +60,20 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#colgauche {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: AUTO;
 }
 
 span {
