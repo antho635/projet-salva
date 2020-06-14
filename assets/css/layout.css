@@ -13681,6 +13681,12 @@ article .article-footer span {
   transition: transform .2s ease, -webkit-transform .2s ease;
 }
 
+@media screen and (max-width: 500px) {
+  article {
+    width: 100%;
+  }
+}
+
 /* test article codepen */
 .portfolio .portfolio-item {
   margin-bottom: 30px;
