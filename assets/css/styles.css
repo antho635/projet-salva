@@ -1228,7 +1228,7 @@ article {
       flex-wrap: wrap;
 }
 
-article .banner-image {
+.banner-image {
   width: 100%;
   height: 250px;
   background-size: contain;
@@ -1239,43 +1239,43 @@ article .banner-image {
   position: relative;
 }
 
-article #banner-image-1 {
+#banner-image-1 {
   background-image: url("../img/loccarton.jpg");
 }
 
-article #banner-image-2 {
+#banner-image-2 {
   background-image: url("../img/caisse.jpg");
 }
 
-article #banner-image-3 {
+#banner-image-3 {
   background-image: url("../img/sangle.jpg");
 }
 
-article #banner-image-4 {
+#banner-image-4 {
   background-image: url("../img/diable.jpg");
 }
 
-article #banner-image-5 {
+#banner-image-5 {
   background-image: url("../img/film.jpg");
 }
 
-article #banner-image-6 {
+#banner-image-6 {
   background-image: url("../img/transpalette.jpg");
 }
 
-article #banner-image-7 {
+#banner-image-7 {
   background-image: url("../img/monte-charge.jpg");
 }
 
-article #banner-image-8 {
+#banner-image-8 {
   background-image: url("../img/scotch.jpg");
 }
 
-article #banner-image-9 {
+#banner-image-9 {
   background-image: url("../img/bulle.jpg");
 }
 
-article .date {
+.date {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -1300,17 +1300,17 @@ article .date {
   text-transform: uppercase;
 }
 
-article .date .day {
+.day {
   font-size: 24px;
   font-weight: 300;
 }
 
-article .date .month {
+.month {
   font-size: 12px;
   font-weight: 600;
 }
 
-article .article-type {
+.article-type {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1321,19 +1321,19 @@ article .article-type {
   font-weight: 600;
 }
 
-article .copy {
+.copy {
   padding: 20px 20px 0 20px;
   font-size: 14px;
   font-weight: 400;
 }
 
-article .article-footer {
+.article-footer {
   padding: 0 20px 20px 20px;
   color: #999;
   text-transform: uppercase;
 }
 
-article .article-footer span {
+span {
   display: inline-block;
   margin-right: 20px;
   position: relative;
@@ -1355,7 +1355,7 @@ article .article-footer span {
           align-items: center;
 }
 
-.toggle-container .toggle {
+.toggle {
   width: 40px;
   height: 40px;
   background: #fff;
