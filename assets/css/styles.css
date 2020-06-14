@@ -1178,7 +1178,7 @@ section {
 # location
 --------------------------------------------------------------*/
 .carton {
-  background-image: url("../img/fragile.jpg");
+  background-image: url("../img/loccarton.jpg");
   height: 250px;
   display: -webkit-box;
   display: -ms-flexbox;
