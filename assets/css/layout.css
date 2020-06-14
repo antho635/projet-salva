@@ -13488,8 +13488,34 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# location
 --------------------------------------------------------------*/
+.carton {
+  background-image: url("../img/fragile.jpg");
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 13%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  border: solid 1px cadetblue;
+}
+
+.descr {
+  text-align: center;
+}
+
+.prix-items {
+  text-align: right;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }

@@ -1143,8 +1143,27 @@ section {
 
 
 /*--------------------------------------------------------------
-# Portfolio
+# location
 --------------------------------------------------------------*/
+
+.carton {
+    background-image: url('../img/fragile.jpg');
+    height: 250px;
+    display: flex;
+    width: 13%;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    border: solid 1px cadetblue;
+}
+
+.descr {
+    text-align: center;
+}
+
+.prix-items {
+    text-align: right;
+}
 
 .portfolio .portfolio-item {
     margin-bottom: 30px;
