@@ -1276,16 +1276,6 @@ hr {
   overflow: visible;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -1576,7 +1566,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-  margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -13490,32 +13479,210 @@ section {
 /*--------------------------------------------------------------
 # location
 --------------------------------------------------------------*/
-.carton {
-  background-image: url("../img/loccarton.jpg");
-  height: 250px;
+.container-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 13%;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.loc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: white;
-  border: solid 1px cadetblue;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: auto;
 }
 
-.descr {
-  text-align: center;
+/* test article codepen */
+.titre3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px auto;
 }
 
-.prix-items {
-  text-align: right;
+article {
+  width: 30%;
+  background: #fff;
+  -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+  margin: 50px auto;
+  padding: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
+article .banner-image {
+  width: 100%;
+  height: 220px;
+  background-size: contain;
+  background-position: center;
+  background-image: url("../img/loccarton.jpg");
+  background-repeat: no-repeat;
+  -webkit-transition: height .2s ease;
+  transition: height .2s ease;
+  position: relative;
+}
+
+article #banner-image-1 {
+  background-image: url("../img/loccarton.jpg");
+}
+
+article #banner-image-2 {
+  background-image: url("../img/caisse.jpg");
+}
+
+article #banner-image-3 {
+  background-image: url("../img/sangle.jpg");
+}
+
+article #banner-image-4 {
+  background-image: url("../img/diable.jpg");
+}
+
+article #banner-image-5 {
+  background-image: url("../img/film.jpg");
+}
+
+article #banner-image-6 {
+  background-image: url("../img/transpalette.jpg");
+}
+
+article #banner-image-7 {
+  background-image: url("../img/monte-charge.jpg");
+}
+
+article #banner-image-8 {
+  background-image: url("../img/scotch.jpg");
+}
+
+article #banner-image-9 {
+  background-image: url("../img/bulle.jpg");
+}
+
+article .date {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+  background: rgba(96, 96, 96, 0.58);
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: uppercase;
+}
+
+article .date .day {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+article .date .month {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+article .article-type {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 6px 20px;
+  text-transform: lowercase;
+  background: rgba(96, 96, 96, 0.58);
+  color: #fff;
+  font-weight: 600;
+}
+
+article .copy {
+  padding: 20px 20px 0 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+article .article-footer {
+  padding: 0 20px 20px 20px;
+  color: #999;
+  text-transform: uppercase;
+}
+
+article .article-footer span {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+  margin-right: 4px;
+}
+
+.toggle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  color: #565656;
+  font-weight: 400;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.toggle-container .toggle {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  color: rgba(96, 96, 96, 0.58);
+  border-radius: 50%;
+  margin-right: 14px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
+  -webkit-transition: -webkit-transform .2s ease;
+  transition: -webkit-transform .2s ease;
+  transition: transform .2s ease;
+  transition: transform .2s ease, -webkit-transform .2s ease;
+}
+
+/* test article codepen */
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
