@@ -1,6 +1,8 @@
 @charset "UTF-8";
 .element {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-position: center top !important;
   text-align: center;
   padding-top: 130px;
@@ -9,7 +11,11 @@
   background: #ededed;
   background-repeat: no-repeat !important;
   background-size: 140px;
-  width: 180px;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .tabs ul {
@@ -47,6 +53,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 auto;
+  width: 10%;
 }
 
 .right {
@@ -70,10 +77,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 90%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: AUTO;
+  margin: auto;
 }
 
 span {
@@ -82,10 +90,31 @@ span {
 }
 
 .elem {
-  display: block;
-  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
   background: #cfcfcf;
   padding: 10px;
+  width: 66%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#tab-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.avertissement {
+  text-align: center;
+  font-size: 1.5em;
 }
 
 /* ------------------------------------- Pictos Calculateur -------------------------------------- */
