@@ -12413,8 +12413,10 @@ ul .details {
 
 /* form */
 #contact :nth-child(1) input {
-  display: block;
-  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
   margin: 0;
   margin-bottom: 20px;
 }
