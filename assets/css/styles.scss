@@ -94,6 +94,94 @@ ul .details {
 }
 
 
+/* form */
+
+#contact :nth-child(1) {
+    input {
+        display: block;
+        width: 300px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .marge-haut {
+        margin-top: 70px
+    }
+    button {
+        width: 320px;
+        cursor: pointer;
+        color: #B4A283;
+        margin-bottom: 30px;
+    }
+    .container {
+        width: 320px;
+        margin: auto;
+    }
+    input,
+    button {
+        padding: 10px;
+        border: 1px solid #BFBFBF;
+    }
+    select {
+        width: 320px;
+        margin-bottom: 20px;
+        border-radius: 0;
+        background: #fff;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding: 10px;
+    }
+    .error {
+        color: red;
+        display: none;
+        margin-bottom: 10px;
+        display: none;
+    }
+    #numero,
+    #boite {
+        width: 130px;
+    }
+    #numero {
+        margin-right: 12px;
+    }
+    .left {
+        float: left;
+    }
+    .avert {
+        font-style: italic;
+        text-align: center;
+        font-size: 0.7em;
+    }
+    #mail {
+        font-size: 0.8em;
+        font-style: italic
+    }
+    .frm {
+        display: flex;
+        justify-content: center;
+        align-self: skretch;
+        width: auto;
+        margin: 10px auto;
+    }
+    .choix-option {
+        display: flex;
+        flex-direction: column;
+        border: solid 1px #BFBFBF;
+        padding: 10px;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 2px #BFBFBF, 0 0 1em GOLD, 0 0 0.2em blue;
+    }
+    .titre-option {
+        display: flex;
+        font-style: bolder;
+        text-shadow: #B4A283 3px 0 5px;
+        font-size: 1.3em;
+        justify-content: center;
+        color: #B4A283;
+    }
+}
+
+
 /****************************************************
  * 	Push Button
  *****************************************************/

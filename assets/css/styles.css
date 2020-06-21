@@ -109,6 +109,118 @@ ul .details {
           flex-direction: column;
 }
 
+/* form */
+#contact :nth-child(1) input {
+  display: block;
+  width: 300px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#contact :nth-child(1) .marge-haut {
+  margin-top: 70px;
+}
+
+#contact :nth-child(1) button {
+  width: 320px;
+  cursor: pointer;
+  color: #B4A283;
+  margin-bottom: 30px;
+}
+
+#contact :nth-child(1) .container {
+  width: 320px;
+  margin: auto;
+}
+
+#contact :nth-child(1) input,
+#contact :nth-child(1) button {
+  padding: 10px;
+  border: 1px solid #BFBFBF;
+}
+
+#contact :nth-child(1) select {
+  width: 320px;
+  margin-bottom: 20px;
+  border-radius: 0;
+  background: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px;
+}
+
+#contact :nth-child(1) .error {
+  color: red;
+  display: none;
+  margin-bottom: 10px;
+  display: none;
+}
+
+#contact :nth-child(1) #numero,
+#contact :nth-child(1) #boite {
+  width: 130px;
+}
+
+#contact :nth-child(1) #numero {
+  margin-right: 12px;
+}
+
+#contact :nth-child(1) .left {
+  float: left;
+}
+
+#contact :nth-child(1) .avert {
+  font-style: italic;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+#contact :nth-child(1) #mail {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+#contact :nth-child(1) .frm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: skretch;
+      align-self: skretch;
+  width: auto;
+  margin: 10px auto;
+}
+
+#contact :nth-child(1) .choix-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid 1px #BFBFBF;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #BFBFBF, 0 0 1em GOLD, 0 0 0.2em blue;
+}
+
+#contact :nth-child(1) .titre-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: bolder;
+  text-shadow: #B4A283 3px 0 5px;
+  font-size: 1.3em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #B4A283;
+}
+
 /****************************************************
  * 	Push Button
  *****************************************************/
