@@ -13656,39 +13656,39 @@ article {
   position: relative;
 }
 
-#banner-image-1 {
+#carton {
   background-image: url("../img/loccarton.jpg");
 }
 
-#banner-image-2 {
+#caisse {
   background-image: url("../img/caisse.jpg");
 }
 
-#banner-image-3 {
+#sangle {
   background-image: url("../img/sangle.jpg");
 }
 
-#banner-image-4 {
+#diable {
   background-image: url("../img/diable.jpg");
 }
 
-#banner-image-5 {
+#rouleau {
   background-image: url("../img/film.jpg");
 }
 
-#banner-image-6 {
+#transpalette {
   background-image: url("../img/transpalette.jpg");
 }
 
-#banner-image-7 {
+#monte-ch {
   background-image: url("../img/monte-charge.jpg");
 }
 
-#banner-image-8 {
+#scotch {
   background-image: url("../img/scotch.jpg");
 }
 
-#banner-image-9 {
+#bulle {
   background-image: url("../img/bulle.jpg");
 }
 
@@ -13942,74 +13942,74 @@ span {
 /*--------------------------------------------------------------
 # utilitaires
 --------------------------------------------------------------*/
-#banner-image-U1 {
+#U1 {
   background-image: url("../img/utilitaire/10m3.jpg");
 }
 
-#banner-image-U2 {
+#U2 {
   background-image: url("../img/utilitaire/12m3.jpg");
 }
 
-#banner-image-U3 {
+#U3 {
   background-image: url("../img/utilitaire/14m3.png");
 }
 
-#banner-image-U4 {
+#U4 {
   background-image: url("../img/utilitaire/16m3.jpg");
 }
 
-#banner-image-U5 {
+#U5 {
   background-image: url("../img/utilitaire/18m3.jpg");
 }
 
-#banner-image-U6 {
+#U6 {
   background-image: url("../img/utilitaire/20m3.jpg");
 }
 
-#banner-image-U7 {
+#U7 {
   background-image: url("../img/utilitaire/20m3(hayon).jpeg");
 }
 
-#banner-image-U8 {
+#U8 {
   background-image: url("../img/utilitaire/30m3.jpg");
 }
 
-#banner-image-U9 {
+#U9 {
   background-image: url("../img/utilitaire/PL.jpg");
 }
 
 /*--------------------------------------------------------------
 # fragile
 --------------------------------------------------------------*/
-#banner-image-F1 {
+#F1 {
   background-image: url("../img/television.jpg");
 }
 
-#banner-image-F2 {
+#F2 {
   background-image: url("../img/tableau.jpg");
 }
 
-#banner-image-F3 {
+#F3 {
   background-image: url("../img/meuble.jpg");
 }
 
-#banner-image-F4 {
+#F4 {
   background-image: url("../img/table.jpg");
 }
 
-#banner-image-F5 {
+#F5 {
   background-image: url("../img/miroir.jpg");
 }
 
-#banner-image-F6 {
+#F6 {
   background-image: url("../img/lustre.jpg");
 }
 
-#banner-image-F7 {
+#F7 {
   background-image: url("../img/piano.jpg");
 }
 
-#banner-image-F8 {
+#F8 {
   background-image: url("../img/coffre fort.jpg");
 }
 
