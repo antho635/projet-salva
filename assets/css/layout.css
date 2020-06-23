@@ -12307,6 +12307,7 @@ a.text-dark:focus {
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #f7fbfe;
 }
 
 a {
@@ -13986,7 +13987,7 @@ span {
 }
 
 #F2 {
-  background-image: url("../img/tableau.jpg");
+  background-image: url("../img/tableaux.jpeg");
 }
 
 #F3 {
