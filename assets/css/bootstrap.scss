@@ -2277,7 +2277,7 @@ textarea.form-control {
 }
 
 .form-group {
-    margin-bottom: 1rem;
+    line-height: 1em;
 }
 
 .form-text {
@@ -3343,8 +3343,10 @@ fieldset:disabled a.btn {
 }
 
 .btn-block {
-    display: block;
-    width: 100%;
+    display: flex;
+    width: 66%;
+    justify-content: center;
+    margin: 40px auto;
 }
 
 .btn-block+.btn-block {
@@ -3781,7 +3783,7 @@ input[type="button"].btn-block {
     flex-wrap: wrap;
     -ms-flex-align: stretch;
     align-items: stretch;
-    width: 100%;
+    width: 33%;
 }
 
 .input-group>.form-control,
