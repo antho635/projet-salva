@@ -12663,6 +12663,7 @@ p {
   z-index: 997;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  background-color: #fff;
 }
 
 #header.header-scrolled {
@@ -12736,13 +12737,20 @@ p {
   width: 33%;
 }
 
+@media screen and (max-width: 450px) {
+  .img-carte {
+    width: 100%;
+  }
+}
+
 .carte-accepter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
 .carte-accepter > p:nth-child(1) {

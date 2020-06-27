@@ -307,6 +307,7 @@ p {
     height: 80px;
     z-index: 997;
     transition: all 0.5s;
+    background-color: #fff;
 }
 
 #header.header-scrolled {
@@ -371,9 +372,16 @@ p {
     width: 33%;
 }
 
+@media screen and (max-width:450px) {
+    .img-carte {
+        width: 100%;
+    }
+}
+
 .carte-accepter {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    width: 100%;
 }
 
 .carte-accepter>p:nth-child(1) {
