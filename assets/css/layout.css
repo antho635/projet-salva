@@ -12412,6 +12412,19 @@ ul .details {
           flex-direction: column;
 }
 
+#fragile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 /* form */
 #contact :nth-child(1) input {
   display: -webkit-box;
@@ -13632,11 +13645,27 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin: 50px auto;
+  text-align: center;
+}
+
+.factures {
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.fa-exclamation-triangle {
+  margin: auto 5px;
 }
 
 article {
@@ -14019,8 +14048,47 @@ span {
 }
 
 /*--------------------------------------------------------------
-# Team
+# jamais seul
 --------------------------------------------------------------*/
+#J1 {
+  background-image: url("../img/television.jpg");
+}
+
+#J2 {
+  background-image: url("../img/tableaux.jpeg");
+}
+
+#J3 {
+  background-image: url("../img/meuble.jpg");
+}
+
+#J4 {
+  background-image: url("../img/table.jpg");
+}
+
+#J5 {
+  background-image: url("../img/miroir.jpg");
+}
+
+#J6 {
+  background-image: url("../img/lustre.jpg");
+}
+
+/*--------------------------------------------------------------
+# tarif main d oeuvre
+--------------------------------------------------------------*/
+#un-manu {
+  background-image: url("../img/team/team-1.jpg");
+}
+
+#deux-manu {
+  background-image: url("../img/team/team-2.jpeg");
+}
+
+#trois-manu {
+  background-image: url("../img/team/team-3.jpg");
+}
+
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;

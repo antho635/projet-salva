@@ -94,6 +94,12 @@ ul .details {
     flex-direction: column;
 }
 
+#fragile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 /* form */
 
@@ -1262,9 +1268,21 @@ section {
 
 .titre3 {
     display: flex;
-    width: 90%;
     justify-content: center;
     margin: 50px auto;
+    text-align: center;
+}
+
+.factures {
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.fa-exclamation-triangle {
+    margin: auto 5px;
 }
 
 article {
@@ -1613,8 +1631,49 @@ span {
 
 
 /*--------------------------------------------------------------
-# Team
+# jamais seul
 --------------------------------------------------------------*/
+
+#J1 {
+    background-image: url('../img/television.jpg');
+}
+
+#J2 {
+    background-image: url('../img/tableaux.jpeg');
+}
+
+#J3 {
+    background-image: url('../img/meuble.jpg');
+}
+
+#J4 {
+    background-image: url('../img/table.jpg');
+}
+
+#J5 {
+    background-image: url('../img/miroir.jpg');
+}
+
+#J6 {
+    background-image: url('../img/lustre.jpg');
+}
+
+
+/*--------------------------------------------------------------
+# tarif main d oeuvre
+--------------------------------------------------------------*/
+
+#un-manu {
+    background-image: url('../img/team/team-1.jpg');
+}
+
+#deux-manu {
+    background-image: url('../img/team/team-2.jpeg');
+}
+
+#trois-manu {
+    background-image: url('../img/team/team-3.jpg');
+}
 
 .team .member {
     margin-bottom: 20px;
