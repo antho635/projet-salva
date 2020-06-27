@@ -764,7 +764,7 @@ ul .details {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
@@ -1318,9 +1318,10 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: auto;
+  margin: 50px auto;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .loc {
@@ -1774,6 +1775,28 @@ span {
 
 #J6 {
   background-image: url("../img/jamaisseul/box.jpg");
+}
+
+/*--------------------------------------------------------------
+# date
+--------------------------------------------------------------*/
+#calendar {
+  background-image: url("../img/calendrier.jpg");
+}
+
+#calendrier {
+  background-image: url("../img/date.jpg");
+}
+
+/*--------------------------------------------------------------
+# assurances
+--------------------------------------------------------------*/
+#assu-camion {
+  background-image: url("../img/assucamion.jpg");
+}
+
+#assu-box {
+  background-image: url("../img/assu-box.jpg");
 }
 
 /*--------------------------------------------------------------
