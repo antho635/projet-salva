@@ -1449,13 +1449,18 @@ article {
   text-transform: uppercase;
 }
 
+.date-span {
+  width: 100px;
+  height: 100px;
+}
+
 .day {
-  font-size: 24px;
+  font-size: 1.2em;
   font-weight: 300;
 }
 
 .month {
-  font-size: 12px;
+  font-size: 0.8em;
   font-weight: 600;
 }
 
@@ -1484,9 +1489,8 @@ article {
 
 span {
   display: inline-block;
-  margin-right: 20px;
   position: relative;
-  margin-right: 4px;
+  text-align: center;
 }
 
 .toggle-container {
@@ -1749,27 +1753,27 @@ span {
 # jamais seul
 --------------------------------------------------------------*/
 #J1 {
-  background-image: url("../img/television.jpg");
+  background-image: url("../img/jamaisseul/Débarras.jpg");
 }
 
 #J2 {
-  background-image: url("../img/tableaux.jpeg");
+  background-image: url("../img/jamaisseul/decheterie.jpg");
 }
 
 #J3 {
-  background-image: url("../img/meuble.jpg");
+  background-image: url("../img/jamaisseul/recupmeuble.jpg");
 }
 
 #J4 {
-  background-image: url("../img/table.jpg");
+  background-image: url("../img/jamaisseul/animaux.jpg");
 }
 
 #J5 {
-  background-image: url("../img/miroir.jpg");
+  background-image: url("../img/jamaisseul/parrainage.jpg");
 }
 
 #J6 {
-  background-image: url("../img/lustre.jpg");
+  background-image: url("../img/jamaisseul/box.jpg");
 }
 
 /*--------------------------------------------------------------
