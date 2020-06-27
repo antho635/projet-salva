@@ -6,6 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   background-color: #f7fbfe;
+  font-size: 1em;
 }
 
 a {
@@ -121,6 +122,10 @@ ul .details {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+p {
+  font-size: 1em;
 }
 
 /* form */
