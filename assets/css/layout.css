@@ -13670,6 +13670,33 @@ section {
   width: 100%;
 }
 
+@media screen and (max-width: 450px) {
+  .loc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  .factures {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .fa-exclamation-triangle {
+    text-align: center;
+  }
+}
+
 .fa-exclamation-triangle {
   margin: auto 5px;
 }

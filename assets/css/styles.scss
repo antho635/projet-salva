@@ -1287,6 +1287,23 @@ section {
     width: 100%;
 }
 
+@media screen and(max-width:450px) {
+    .loc {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        margin: auto;
+    }
+    .factures {
+        flex-direction: column;
+        text-align: center;
+    }
+    .fa-exclamation-triangle {
+        text-align: center;
+    }
+}
+
 .fa-exclamation-triangle {
     margin: auto 5px;
 }
