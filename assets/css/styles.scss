@@ -124,10 +124,6 @@ p {
         color: #B4A283;
         margin-bottom: 30px;
     }
-    .container {
-        width: 320px;
-        margin: auto;
-    }
     input,
     button {
         padding: 10px;
@@ -185,6 +181,7 @@ p {
         border: solid 1px #BFBFBF;
         padding: 10px;
         margin: 10px;
+        width: 100%;
     }
     .titre-option {
         display: flex;

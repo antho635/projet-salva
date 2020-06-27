@@ -12451,11 +12451,6 @@ p {
   margin-bottom: 30px;
 }
 
-#contact :nth-child(1) .container {
-  width: 320px;
-  margin: auto;
-}
-
 #contact :nth-child(1) input,
 #contact :nth-child(1) button {
   padding: 10px;
@@ -12530,6 +12525,7 @@ p {
   border: solid 1px #BFBFBF;
   padding: 10px;
   margin: 10px;
+  width: 100%;
 }
 
 #contact :nth-child(1) .titre-option {
