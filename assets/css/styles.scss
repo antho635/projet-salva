@@ -198,7 +198,7 @@ p {
 }
 
 
-/*========== formule new =========*/
+/*========== formule essentiel new =========*/
 
 #body-form {
     color: #2b2c48;
@@ -215,7 +215,7 @@ p {
 }
 
 .card {
-    max-width: 340px;
+    width: 23%;
     margin: auto;
     overflow-y: auto;
     position: relative;
@@ -229,11 +229,12 @@ p {
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
 }
 
+.titre-o {
+    text-align: center;
+}
+
 .card[data-state="#about"] {
-    height: 450px;
-    .card-main {
-        padding-top: 0;
-    }
+    height: auto;
 }
 
 .card[data-state="#contact"] {
@@ -350,7 +351,7 @@ p {
 
 .card-subtitle {
     font-weight: 700;
-    font-size: 13px;
+    font-size: 1.5em;
     margin-bottom: 8px;
 }
 
@@ -359,9 +360,9 @@ p {
 }
 
 .card-desc {
-    line-height: 1.6;
+    line-height: 1.8;
     color: #636b6f;
-    font-size: 14px;
+    font-size: 1.3em;
     margin: 0;
     font-weight: 400;
     font-family: "DM Sans", sans-serif;
@@ -545,6 +546,26 @@ p {
     font-weight: 500;
     font-family: "Jost", sans-serif;
     transition: 0.3s;
+}
+
+
+/*========== formule essentiel new =========*/
+
+
+/*========== formule premium new =========*/
+
+#body-form-p {
+    color: #2b2c48;
+    font-family: "Jost", sans-serif;
+    background-image: url('../img/portfolio/premium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 
