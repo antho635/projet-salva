@@ -105,6 +105,11 @@ p {
     font-size: 1em;
 }
 
+#prenium {
+    background-image: url('../img/portfolio/essentiel1.jpg');
+    display: contents;
+}
+
 
 /* form */
 
@@ -211,11 +216,10 @@ p {
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
 }
 
 .card {
-    width: 23%;
+    width: 33%;
     margin: auto;
     overflow-y: auto;
     position: relative;
@@ -249,11 +253,13 @@ p {
     .card-header {
         height: 80px;
     }
-    .card-cover {
+    .card-cover,
+    .card-cover-p {
         height: 100px;
         top: -50px;
     }
-    .card-avatar {
+    .card-avatar,
+    .card-avatar-p {
         transform: none;
         left: 20px;
         width: 50px;
@@ -288,7 +294,8 @@ p {
     }
 }
 
-.card-cover {
+.card-cover,
+.card-cover-p {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -303,7 +310,8 @@ p {
     transition: 0.5s;
 }
 
-.card-avatar {
+.card-avatar,
+.card-avatar-p {
     width: 100px;
     height: 100px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
@@ -565,7 +573,10 @@ p {
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+}
+
+#head-p {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
 
