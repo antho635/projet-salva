@@ -13028,6 +13028,29 @@ p {
   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
+@media screen and (max-width: 700px) {
+  .card {
+    width: 80%;
+    margin: 30px auto;
+  }
+  #body-form {
+    color: #2b2c48;
+    font-family: "Jost", sans-serif;
+    background-image: url("../img/portfolio/essentiel1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
 /****************************************************
  * 	Push Button
  *****************************************************/
