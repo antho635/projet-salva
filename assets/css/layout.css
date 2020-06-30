@@ -15136,6 +15136,7 @@ article {
   background-image: url("../img/bulle.jpg");
 }
 
+/*===== date =====*/
 .date {
   position: absolute;
   top: 20px;
@@ -15242,6 +15243,22 @@ span {
   transition: -webkit-transform .2s ease;
   transition: transform .2s ease;
   transition: transform .2s ease, -webkit-transform .2s ease;
+}
+
+#heurejour {
+  background-image: url("../img/heure.png");
+}
+
+#heure-conduite {
+  background-image: url("../img/prix-heure.jpg");
+}
+
+#panier {
+  background-image: url("../img/panier.jpg");
+}
+
+#nuit {
+  background-image: url("../img/nuit.jpg");
 }
 
 @media screen and (max-width: 500px) {
