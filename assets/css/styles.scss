@@ -4895,8 +4895,7 @@ label {
     flex-direction: column;
     padding: 30px;
     margin: 150px auto;
-    height: 100%;
-    min-height: 340px;
+    height: auto;
     .title {
         font-family: "Kaushan Script";
         display: block;
@@ -4937,6 +4936,12 @@ label {
                 text-decoration: underline;
             }
         }
+    }
+}
+
+@media screen and(max-width:930px) {
+    #root {
+        flex-direction: column;
     }
 }
 
