@@ -4897,12 +4897,18 @@ label {
     margin: 150px auto;
     height: auto;
     .title {
-        font-family: "Kaushan Script";
-        display: block;
-        font-size: 2rem;
-        margin-left: -0.35rem;
-        text-transform: capitalize;
-        opacity: 0.5;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        opacity: 1;
+        font-size: 2em;
+        color: burlywood;
+    }
+    .description {
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        margin: 20px auto;
     }
     .description:hover,
     .title:hover {
