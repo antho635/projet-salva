@@ -4882,33 +4882,53 @@ label {
 
 /*====== page formule ========*/
 
-#root {
+#p-formule {
+    width: 60%;
     display: flex;
     justify-content: space-between;
+    margin: 70px auto
+}
+
+#essentiel-p,
+#premium-p {
+    display: flex;
     width: 100%;
-    height: auto;
+    justify-content: center;
+}
+
+.breadcrumbs h2 {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#root {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.description {
+    text-align: center;
+    color: #fff;
 }
 
 .item {
+    width: 20rem;
+    padding: 0.4rem 1rem 0.75rem;
     background-color: #222;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    margin: 150px auto;
+    min-height: 400px;
     height: auto;
     .title {
+        font-family: "Kaushan Script";
         display: flex;
+        font-size: 2rem;
+        margin-left: -0.35rem;
+        text-transform: capitalize;
         justify-content: center;
-        margin: auto;
-        opacity: 1;
-        font-size: 2em;
-        color: burlywood;
-    }
-    .description {
-        display: flex;
-        justify-content: center;
-        color: aliceblue;
-        margin: 20px auto;
+        color: #fff;
     }
     .description:hover,
     .title:hover {
@@ -4917,26 +4937,26 @@ label {
     .image {
         width: 100%;
         height: 11rem;
-        background-size: 100% auto;
-        background-position: center center;
-        margin: 0.8rem 0 0.7rem 0;
+        background-size: cover;
+        background-position: center;
+        margin: auto;
         transition: all 0.25s ease-in-out;
-        filter: saturate(0%);
+        filter: saturate(90%);
     }
     &:hover {
         cursor: pointer;
         .image {
-            background-size: 105% auto;
             filter: saturate(200%);
         }
     }
     .keywords {
         font-style: italic;
+        color: white;
+        text-align: center;
         .keyword {
-            margin-right: 0.25rem;
             color: white;
-            opacity: 0.5;
             text-decoration: none;
+            text-align: center;
             &:hover {
                 opacity: 1;
                 text-decoration: underline;
@@ -4945,9 +4965,10 @@ label {
     }
 }
 
-@media screen and(max-width:930px) {
-    #root {
+@media screen and (max-width:850px) {
+    #p-formule {
         flex-direction: column;
+        width: 100%;
     }
 }
 
