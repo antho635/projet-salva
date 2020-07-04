@@ -45,7 +45,8 @@
             <div class="container d-flex align-items-center">
 
                 <div class="logo mr-auto">
-                    <h1 class="text-light"><a href="index.html"><span>É<em class="euro">€</em>O DÉMÉNAGEMENT</span></a></h1>
+                    <h1 class="text-light"><a href="index.html"><span>É<em class="euro">€</em>O DÉMÉNAGEMENT</span></a>
+                    </h1>
                     <!-- Uncomment below if you prefer to use an image logo -->
                     <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
                 </div>
@@ -167,16 +168,18 @@
 
                         <div class="choix-option">
                             <p class="titre-option">choix :</p>
-                            <form class="frm" method="post" action="traitement.php">
-                                <label for="essentiel"> essentiel </label>
-                                <input type="checkbox" name="case" id="checkbox" required="required" placeholder="" />
-                                <div class="error error-pseudo"></div>
-                            </form>
+                            <form type="checkbox" class="frm" method="post" action="traitement.php">
+                                <div id="choix1">
+                                    <label for="essentiel"> essentiel </label>
+                                    <input type="radio" name="case" id="checkbox" required="required" placeholder="" />
+                                    <div class="error error-pseudo"></div>
+                                </div>
 
-                            <form class="frm" method="post" action="traitement.php">
-                                <label for="premium"> premium </label>
-                                <input type="checkbox" name="case" id="checkbox" required="required" placeholder="" />
-                                <div class="error error-pseudo"></div>
+                                <div id="choix2">
+                                    <label for="premium"> premium </label>
+                                    <input type="radio" name="case" id="checkbox" required="required" placeholder="" />
+                                    <div class="error error-pseudo"></div>
+                                </div>
                             </form>
                         </div>
 
