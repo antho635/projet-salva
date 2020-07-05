@@ -288,8 +288,8 @@ p {
 }
 
 .card {
-  width: 33%;
-  margin: auto;
+  width: 40%;
+  margin: 50px auto;
   overflow-y: auto;
   position: relative;
   z-index: 1;
@@ -464,6 +464,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 10px;
 }
 
 .card-subtitle {
@@ -480,7 +481,7 @@ p {
   line-height: 1.8;
   color: #636b6f;
   font-size: 1.3em;
-  margin: 0;
+  margin: auto 6px;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
 }
@@ -722,7 +723,7 @@ p {
 
 /*========== formule essentiel new =========*/
 img.gauche {
-  width: 35%;
+  width: 33%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -730,7 +731,7 @@ img.gauche {
 }
 
 img.droite {
-  width: 35%;
+  width: 33%;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   display: -webkit-box;
@@ -751,6 +752,40 @@ img.droite {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 950px) {
+  .card {
+    width: 90%;
+  }
+  .container-option {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.p-formule {
+  margin-bottom: 50px;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+p.p-formule:nth-child(6) {
+  margin-bottom: 20px;
 }
 
 /*========== formule premium new =========*/
