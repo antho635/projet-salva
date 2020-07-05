@@ -5329,6 +5329,15 @@ div.tab[aria-hidden='false'] {
   .ui-tabs .ui-tabs-nav li.ui-state-active a:after {
     height: 0 !important;
   }
+  #breadcrumbs {
+    overflow: visible;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -5341,15 +5350,6 @@ div.tab[aria-hidden='false'] {
   }
   .calculateur .left {
     width: 100%;
-  }
-  #breadcrumbs {
-    overflow: visible;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 
