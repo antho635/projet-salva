@@ -4727,6 +4727,12 @@ div.tab[aria-hidden='false'] {
     box-shadow: inset 0 0 4px 2px rgba(255, 255, 255, .1)
 }
 
+#breadcrumbs {
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width:1240px) {
     .calculateur .tabs ul,
     body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html .calculateur .tabs ul,
@@ -4774,6 +4780,11 @@ div.tab[aria-hidden='false'] {
     }
     .calculateur .left {
         width: 100%
+    }
+    #breadcrumbs {
+        overflow: visible;
+        display: flex;
+        justify-content: center;
     }
 }
 
