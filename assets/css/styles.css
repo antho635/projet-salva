@@ -724,6 +724,7 @@ p {
 /*========== formule essentiel new =========*/
 img.gauche {
   width: 33%;
+  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -732,6 +733,7 @@ img.gauche {
 
 img.droite {
   width: 33%;
+  height: 100px;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   display: -webkit-box;
