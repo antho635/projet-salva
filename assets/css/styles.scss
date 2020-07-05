@@ -253,9 +253,6 @@ p {
     background-repeat: no-repeat;
 }
 
-.titre-o {
-    text-align: center;
-}
 
 .card[data-state="#about"] {
     height: auto;
@@ -578,6 +575,28 @@ p {
 
 
 /*========== formule essentiel new =========*/
+img.gauche {
+    width: 35%;
+    display: flex;
+    margin: auto;
+   }
+
+   img.droite {
+    width: 35%;
+    transform: rotate(180deg);
+    display: flex;
+    margin: auto;
+   }
+   
+   .container-option {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   
 
 
 /*========== formule premium new =========*/

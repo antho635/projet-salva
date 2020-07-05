@@ -12627,10 +12627,6 @@ p {
   background-repeat: no-repeat;
 }
 
-.titre-o {
-  text-align: center;
-}
-
 .card[data-state="#about"] {
   height: auto;
 }
@@ -13033,6 +13029,38 @@ p {
 }
 
 /*========== formule essentiel new =========*/
+img.gauche {
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+img.droite {
+  width: 35%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+.container-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /*========== formule premium new =========*/
 #body-form-p {
   color: #2b2c48;
