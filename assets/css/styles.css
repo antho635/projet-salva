@@ -1031,7 +1031,8 @@ label {
 }
 
 .img-carte {
-  width: 33%;
+  width: 66%;
+  min-height: 75px;
 }
 
 .input-group {
@@ -1044,12 +1045,6 @@ label {
           justify-content: center;
   margin: auto;
   margin-bottom: 10px;
-}
-
-@media screen and (max-width: 450px) {
-  .img-carte {
-    width: 100%;
-  }
 }
 
 .carte-accepter {
