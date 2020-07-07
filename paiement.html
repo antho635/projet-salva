@@ -14,7 +14,9 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -60,22 +62,22 @@
                             <li><a href="essentiel.html#essentiel">Essentiel</a></li>
                             <li><a href="prenium.html#prenium">Premium</a></li>
                         </ul>
-                        <li><a href="calculateur.html">Calculez vos m3</a></li>
-                        <li class="drop-down"><a href="">Les prix</a>
-                            <ul>
-                                <li><a href="prix.html#utilitaires">Location utilitaires</a></li>
-                                <li><a href="prix.html#location">Location materiel</a></li>
-                                <li><a href="prix.html#team">Tarification maind'oeuvre</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="devis.html">Devis</a></li>
-                        <li class="drop-down"><a href="">À savoir</a>
-                            <ul>
-                                <li><a href="prix.html#fragile">Les objets dit fragiles</a></li>
-                                <li><a href="prix.html#jamais-seul">On vous aides</a></li>
-                                <li><a href="prix.html#assurance">Les assurances</a></li>
-                            </ul>
-                        </li>
+                    <li><a href="calculateur.html">Calculez vos m3</a></li>
+                    <li class="drop-down"><a href="">Les prix</a>
+                        <ul>
+                            <li><a href="prix.html#utilitaires">Location utilitaires</a></li>
+                            <li><a href="prix.html#location">Location materiel</a></li>
+                            <li><a href="prix.html#team">Tarification maind'oeuvre</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="devis.html">Devis</a></li>
+                    <li class="drop-down"><a href="">À savoir</a>
+                        <ul>
+                            <li><a href="prix.html#fragile">Les objets dit fragiles</a></li>
+                            <li><a href="prix.html#jamais-seul">On vous aides</a></li>
+                            <li><a href="prix.html#assurance">Les assurances</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
             <!-- .nav-menu -->
@@ -96,35 +98,58 @@
                     <div class="panel-body">
                         <form role="form">
                             <div class="form-group" id="form-name">
-                                <label for="name">
-                                    titulaire de la carte</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="cardNumber" placeholder="NOM" required autofocus />
-                                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                <div class="cb">
+                                    <label for="name">
+                                        titulaire de la carte</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="cardNumber" placeholder="NOM"
+                                            required autofocus />
+                                        <span class="input-group-addon"><span
+                                                class="glyphicon glyphicon-lock"></span></span>
+                                    </div>
                                 </div>
-                                <label for="cardNumber">
-                                    numero de carte</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="cardNumber" placeholder="XXXX-XXXX-XXXX-XXXX" required autofocus />
-                                    <span class="input-group-addon"><span
-                                            class="glyphicon glyphicon-lock"></span></span>
+                                <div class="cb">
+                                    <label for="cardNumber">
+                                        numero de carte</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="cardNumber"
+                                            placeholder="XXXX-XXXX-XXXX-XXXX" required autofocus />
+                                        <span class="input-group-addon"><span
+                                                class="glyphicon glyphicon-lock"></span></span>
+                                    </div>
                                 </div>
-                                <label for="cardNumber">
-                                    date expiration</label>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="cardNumber" placeholder="MM / YY" required autofocus />
-                                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+
+                                <div class="cb">
+                                    <label for="cardNumber">
+                                        date expiration</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="cardNumber" placeholder="MM / YY"
+                                            required autofocus />
+                                        <span class="input-group-addon"><span
+                                                class="glyphicon glyphicon-lock"></span></span>
+                                    </div>
                                 </div>
-                                <label for="cardNumber">
-                                    CVV</label>
-                                <div class="input-group">
-                                    <input type="number" class="form-control" id="cardNumber" placeholder="XXX" required autofocus />
-                                    <span class="input-group-addon"><span
-                                            class="glyphicon glyphicon-lock"></span></span>
+
+                                <div class="cb">
+                                    <label for="cardNumber">CVV</label>
+                                    <div class="input-group">
+                                        <input type="number" class="form-control" id="cardNumber" placeholder="XXX"
+                                            required autofocus />
+                                        <span class="input-group-addon"><span
+                                                class="glyphicon glyphicon-lock"></span></span>
+                                    </div>
                                 </div>
+
                                 <a href="" class="btn btn-success btn-lg btn-block" role="button">Payer</a>
-                                <p class="small">En cliquant sur le bouton Payer, vous attestez avoir lu et accepté les Conditions Générales et la charte de la vie privée et vous renoncez à votre droit de rétractation.
-                                </p>
+
+                                <div id="bouton-condition">
+                                    <input type="checkbox" class="bouton-condition" />
+
+                                    <p class="small">En cliquant sur le bouton Payer, vous attestez avoir lu et accepté
+                                        les Conditions Générales et la charte de la vie privée et vous renoncez à votre
+                                        droit de rétractation.
+                                    </p>
+                                </div>
                             </div>
                         </form>
                     </div>
