@@ -841,7 +841,14 @@ label {
 
 #bouton-condition {
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.btn-p-condi {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
 }
 
 .bouton-condition {
@@ -918,6 +925,12 @@ label {
     justify-content: center;
     margin: auto;
     width: 45%;
+}
+
+#script-paiement {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
 }
 
 @media screen and (max-width:950px) {
