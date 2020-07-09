@@ -5846,7 +5846,7 @@ a:hover {
   display: flex;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {
   .card-3d-wrap {
     width: auto;
   }
