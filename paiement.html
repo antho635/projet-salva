@@ -76,75 +76,37 @@
                                 <li><a href="prix.html#assurance">Les assurances</a></li>
                             </ul>
                         </li>
+                    </li>
                 </ul>
             </nav>
             <!-- .nav-menu -->
-
         </div>
     </header>
+
     <!-- End Header -->
 
-    <div id="container-paiement" class="container">
-        <div class="row">
-            <div class="cadre-paiement">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <div class="carte-accepter">
-                            <img src="assets/img/different-paiement.png" class="img-carte">
-                        </div>
-                    </div>
-
-                    <!--<div class="panel-body">
-                        <form role="form">
-                            <div class="form-group" id="form-name">
-                                <div class="cb">
-                                    <label for="name">
-                                        titulaire de la carte</label>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="cardNumber" placeholder="NOM" required autofocus />
-                                        <span class="input-group-addon"><span
-                                                class="glyphicon glyphicon-lock"></span></span>
-                                    </div>
-                                </div>
-                                <div class="cb">
-                                    <label for="cardNumber">
-                                        numero de carte</label>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="cardNumber" placeholder="XXXX-XXXX-XXXX-XXXX" required autofocus />
-                                        <span class="input-group-addon"><span
-                                                class="glyphicon glyphicon-lock"></span></span>
-                                    </div>
-                                </div>
-
-                                <div class="cb">
-                                    <label for="cardNumber">
-                                        date expiration</label>
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="cardNumber" placeholder="MM / YY" required autofocus />
-                                        <span class="input-group-addon"><span
-                                                class="glyphicon glyphicon-lock"></span></span>
-                                    </div>
-                                </div>
-
-                                <div class="cb">
-                                    <label for="cardNumber">CVV</label>
-                                    <div class="input-group">
-                                        <input type="number" class="form-control" id="cardNumber" placeholder="XXX" required autofocus />
-                                        <span class="input-group-addon"><span
-                                                class="glyphicon glyphicon-lock"></span></span>
-                                    </div>
-                                </div>-->
-
-                    <div id="accept-condi">
-                        <div id="script-paiement">
-                            <script type="text/javascript" src="https://secure.payplug.com/static/button/scripts/payplug.js"></script>
-                            <a class="btn btn-success btn-lg btn-block" href="https://secure.payplug.com/p/test/Tivej" target="_blank" base_url="https://secure.payplug.com">Acheter</a>
+    <div id="main-cb">
+        <div id="container-paiement">
+            <div class="align-items-stretch">
+                <div class="cadre-paiement">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="carte-accepter">
+                                <img src="assets/img/different-paiement.png" class="img-carte">
+                            </div>
                         </div>
 
-                        <div class="btn-p-condi">
-                            <input id="bouton-condition" type="checkbox" class="bouton-condition" />
-                            <p class="small">En cliquant sur le bouton Payer, vous attestez avoir lu et accepté les Conditions Générales et la charte de la vie privée.
-                            </p>
+                        <div id="accept-condi">
+                            <div id="script-paiement">
+                                <script type="text/javascript" src="https://secure.payplug.com/static/button/scripts/payplug.js"></script>
+                                <a class="btn btn-success btn-lg btn-block" href="https://secure.payplug.com/p/test/Tivej" target="_blank" base_url="https://secure.payplug.com">Acheter</a>
+                            </div>
+
+                            <div class="btn-p-condi">
+                                <input id="bouton-condition" type="checkbox" class="bouton-condition" />
+                                <p class="small">En cliquant sur le bouton Payer, vous attestez avoir lu et accepté les Conditions Générales et la charte de la vie privée.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

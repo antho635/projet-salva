@@ -844,20 +844,23 @@ label {
     text-align: end;
 }
 
-#bouton-condition {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
+.small {
+    margin: auto 10px;
 }
 
 .btn-p-condi {
     display: flex;
     justify-content: space-between;
     margin: 30px auto;
+    align-items: baseline;
 }
 
 .bouton-condition {
     margin: 10px;
+}
+
+#bouton-condition {
+    margin: auto 10px;
 }
 
 .cadre-paiement {
@@ -936,6 +939,10 @@ label {
     display: flex;
     justify-content: center;
     margin: 30px auto;
+}
+
+#main-cb {
+    padding: 110px;
 }
 
 @media screen and (max-width:950px) {
