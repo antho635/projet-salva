@@ -5790,8 +5790,8 @@ a:hover {
   left: -9999px;
 }
 
-.checkbox:checked + label,
-.checkbox:not(:checked) + label {
+.checkbox-log:checked + label,
+.checkbox-log:not(:checked) + label {
   position: relative;
   display: block;
   text-align: center;
@@ -5804,8 +5804,8 @@ a:hover {
   background-color: #ffeba7;
 }
 
-.checkbox:checked + label:before,
-.checkbox:not(:checked) + label:before {
+.checkbox-log:checked + label:before,
+.checkbox-log:not(:checked) + label:before {
   position: absolute;
   display: block;
   width: 36px;
@@ -5825,7 +5825,7 @@ a:hover {
   transition: all 0.5s ease;
 }
 
-.checkbox:checked + label:before {
+.checkbox-log:checked + label:before {
   -webkit-transform: translateX(44px) rotate(-270deg);
           transform: translateX(44px) rotate(-270deg);
 }
@@ -5888,7 +5888,7 @@ a:hover {
           transform: rotateY(180deg);
 }
 
-.checkbox:checked ~ .card-3d-wrap .card-3d-wrapper {
+.checkbox-log:checked ~ .card-3d-wrap .card-3d-wrapper {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
@@ -5952,6 +5952,12 @@ a:hover {
   color: gold;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
+}
+
+#btn-anim {
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .form-group-log input:-ms-input-placeholder {
