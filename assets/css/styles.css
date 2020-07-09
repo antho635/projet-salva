@@ -5930,6 +5930,7 @@ a:hover {
   transition: all 200ms linear;
   -webkit-box-shadow: 0 4px 8px 0 rgba(21, 21, 21, 0.2);
           box-shadow: 0 4px 8px 0 rgba(21, 21, 21, 0.2);
+  position: relative;
 }
 
 .form-style-log:focus,
