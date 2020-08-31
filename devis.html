@@ -93,99 +93,59 @@
                 <p class="avert">Les champs avec astérisque (*) sont obligatoires.</p>
 
                 <div id="devis">
-
                     <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
-                        <!--<form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                                <div class="form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Nom prénom" data-rule="minlen:4" data-msg="minimum 4 caractères" />
-                                    <div class="validate"></div>
+
+                        <!-- form new -->
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <form method="post" action="traitement.php">
+                                <label for="nom">Nom </label>
+                                <input type="text" name="pseudo" id="nom" required="required" placeholder="*" />
+                                <div class="error error-pseudo"></div>
+
+                                <label for="prenom">Prenom </label>
+                                <input type="text" name="pseudo" id="prenom" required="required" placeholder="*" />
+                                <div class="error error-pseudo"></div>
+
+                                <label for="telephone">Telephone </label>
+                                <input type="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required" placeholder="*" />
+                                <div class="error error-telephone"></div>
+
+                                <label for="mail">Adresse Email </label>
+                                <input type="email" name="mail" id="mail" placeholder="Marcel-versou@exemple.com" />
+                                <div class="error error-mail"></div>
+
+                                <label for="mail">Ville de depart </label>
+                                <input type="text" class="form-control" name="adresse depart" id="city" placeholder="Depart" data-rule="minlen:4" data-msg="Veuillez saisir votre adresse de depart" />
+                                <div class="error error-city"></div>
+
+                                <label for="mail">Ville d'arrivé </label>
+                                <input type="text" class="form-control" name="adresse arrive" id="city" placeholder="Arrivé" data-rule="minlen:4" data-msg="Veuillez saisir votre adresse d'arrivé" />
+                                <div class="error error-city"></div>
+
+
+                                <div class="choix-option">
+                                    <p>Votre choix :</p>
+
+                                    <div class="choix">
+                                        <input type="checkbox" id="choix1" name="premium" checked>
+                                        <label for="choix1">Prémium</label>
+                                    </div>
+
+                                    <div class="choix">
+                                        <input type="checkbox" id="choix2" name="essentiel">
+                                        <label for="choix2">Éssentiel</label>
+                                    </div>
                                 </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" name="mail" id="email" placeholder="mail" data-rule="email" data-msg="veuillez rentrer une adresse mail valide" />
-                                    <div class="validate"></div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="adresse depart" id="subject" placeholder="adresse de depart" data-rule="minlen:4" data-msg="Veuillez saisir votre adresse de depart" />
-                                    <div class="validate"></div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="adresse d'arrivé" id="subject" placeholder="adresse d'arrivé" data-rule="minlen:4" data-msg="Veuillez saisir votre adresse d'arrivé" />
-                                    <div class="validate"></div>
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="veuillez detailler domicile" placeholder="detailler votre domicile"></textarea>
-                                    <div class="validate"></div>
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="veuillez detailler votre demande ou option choisie" placeholder="veuillez detailler votre demande ou option choisie"></textarea>
-                                    <div class="validate"></div>
-                                </div>
+
 
                                 <div class="mb-3">
                                     <div class="loading">Patientez</div>
                                     <div class="error-message"></div>
-                                    <div class="sent-message">Votre message à bien été envoyé. Nous vous remercions!</div>
+                                    <div class="sent-message">Votre message a bien été envoyé. Nous vous remercions!
+                                    </div>
                                 </div>
                                 <div class="text-center"><button type="submit">Envoyé</button></div>
-                            </form>-->
-
-                        <!-- form new -->
-                        <form method="post" action="traitement.php">
-                            <label for="nom">Nom </label>
-                            <input type="text" name="pseudo" id="nom" required="required" placeholder="*" />
-                            <div class="error error-pseudo"></div>
-
-                            <label for="pseudo">Prenom </label>
-                            <input type="text" name="prenom" id="prenom" required="required" placeholder="*" />
-                            <div class="error error-pseudo"></div>
-
-                            <label for="telephone">Telephone </label>
-                            <input type="tel" name="telephone" id="telephone" required="required" placeholder="*" />
-                            <div class="error error-telephone"></div>
-
-                            <label for="mail"> Votre adresse Email </label>
-                            <input type="email" name="mail" id="mail" placeholder="Marcel-versou@exemple.com" />
-                            <div class="error error-mail"></div>
-
-
-                            <!-- a finir javascript a partir d'ici -->
-                            <label for="date"> Votre date choisie </label>
-                            <input type="date" name="date" id="date" placeholder="" />
-                            <div class="error error-date"></div>
-
-                            <label for="ville">Ville de depart </label>
-                            <input type="search" name="ville" id="city" required="required" placeholder="*" />
-                            <div class="error error-pseudo"></div>
-
-                            <label for="city">Ville d'arrivé </label>
-                            <input type="search" name="ville" id="city" required="required" placeholder="*" />
-                            <div class="error error-pseudo"></div>
-
-
-                            <label for="precision">Précisions suplémentaires </label>
-                            <input type="text" name="pseudo" id="precision" required="required" placeholder="ex:transport de coffre-fort" />
-                        </form>
-
-                        <div class="choix-option">
-                            <p class="titre-option">choix :</p>
-                            <form type="checkbox" class="frm" method="post" action="traitement.php">
-                                <div id="choix1">
-                                    <label for="essentiel"> essentiel </label>
-                                    <input type="radio" name="case" id="checkbox" required="required" placeholder="" />
-                                    <div class="error error-pseudo"></div>
-                                </div>
-
-                                <div id="choix2">
-                                    <label for="premium"> premium </label>
-                                    <input type="radio" name="case" id="checkbox" required="required" placeholder="" />
-                                    <div class="error error-pseudo"></div>
-                                </div>
                             </form>
-                        </div>
-
-                        <button type="submit" class="envoie"> Envoyé </button>
-                        <div class="error error-all"></div>
-                        </form>
 
                     </div>
                 </div>

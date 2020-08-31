@@ -126,7 +126,6 @@ p {
     button {
         width: 320px;
         cursor: pointer;
-        color: #B4A283;
         margin-bottom: 30px;
     }
     input,
@@ -5007,6 +5006,11 @@ label {
     margin: 10px;
 }
 
+.choix {
+    display: flex;
+    align-items: center;
+}
+
 
 /*====== page formule ========*/
 
@@ -5150,7 +5154,6 @@ a:hover {
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
     position: absolute;
-    left: -9999px;
 }
 
 .checkbox-log:checked+label,

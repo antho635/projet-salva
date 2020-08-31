@@ -150,7 +150,6 @@ p {
 #contact :nth-child(1) button {
   width: 320px;
   cursor: pointer;
-  color: #B4A283;
   margin-bottom: 30px;
 }
 
@@ -5609,6 +5608,15 @@ label {
   margin: 10px;
 }
 
+.choix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /*====== page formule ========*/
 #p-formule {
   width: 60%;
@@ -5787,7 +5795,6 @@ a:hover {
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
   position: absolute;
-  left: -9999px;
 }
 
 .checkbox-log:checked + label,
