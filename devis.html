@@ -98,28 +98,28 @@
                         <!-- form new -->
                         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                             <form method="post" action="traitement.php">
-                                <label for="nom">Nom </label>
-                                <input type="text" name="pseudo" id="nom" required="required" placeholder="*" />
-                                <div class="error error-pseudo"></div>
+                                <label for="name">Nom </label>
+                                <input type="text" name="name" id="name" required="required" placeholder="*" />
+                                <div class="error error-name"></div>
 
-                                <label for="prenom">Prenom </label>
-                                <input type="text" name="pseudo" id="prenom" required="required" placeholder="*" />
-                                <div class="error error-pseudo"></div>
+                                <label for="name">Prenom </label>
+                                <input type="text" name="name" id="name" required="required" placeholder="*" />
+                                <div class="error error-name"></div>
 
-                                <label for="telephone">Telephone </label>
+                                <label for="phone">Telephone </label>
                                 <input type="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required" placeholder="*" />
-                                <div class="error error-telephone"></div>
+                                <div class="error error-phone"></div>
 
-                                <label for="mail">Email </label>
-                                <input type="email" name="mail" id="mail" placeholder="*" />
-                                <div class="error error-mail"></div>
+                                <label for="email">Email </label>
+                                <input type="email" name="email" id="email" placeholder="*" />
+                                <div class="error error-email"></div>
 
-                                <label for="mail">Ville de depart </label>
-                                <input type="text" class="form-control" name="adresse depart" id="city" placeholder="*" data-rule="minlen:4" data-msg="Veuillez saisir votre adresse de depart" />
+                                <label for="city">Ville de depart </label>
+                                <input type="text" class="form-control" name="city" id="city" placeholder="*" data-rule="minlen:4" data-msg="Veuillez saisir votre adresse de depart" />
                                 <div class="error error-city"></div>
 
-                                <label for="mail">Ville d'arrivé </label>
-                                <input type="text" class="form-control" name="adresse arrive" id="city" placeholder="*" data-rule="minlen:4" data-msg="Veuillez saisir votre adresse d'arrivé" />
+                                <label for="city">Ville d'arrivé </label>
+                                <input type="text" class="form-control" name="city" id="city" placeholder="*" data-rule="minlen:4" data-msg="Veuillez saisir votre adresse d'arrivé" />
                                 <div class="error error-city"></div>
 
 
@@ -127,13 +127,13 @@
                                     <p>Votre choix :</p>
 
                                     <div class="choix">
-                                        <input type="checkbox" id="choix1" name="premium" checked>
                                         <label for="choix1">Prémium</label>
+                                        <input type="checkbox" class="checkbox" name="choix1" id="choix1">
                                     </div>
 
                                     <div class="choix">
-                                        <input type="checkbox" id="choix2" name="essentiel">
                                         <label for="choix2">Éssentiel</label>
+                                        <input type="checkbox" class="checkbox" name="choix2" id="choix2">
                                     </div>
                                 </div>
 

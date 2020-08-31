@@ -20,8 +20,10 @@
   
   $contact->to = $receiving_email_address;
   $contact->from_name = $_POST['name'];
+  $contact->from_phone = $_POST['phone'];
   $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+  $contact->from_subject = $_POST['subject'];
+  $contact->from_city = $_POST['city'];
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   /*
