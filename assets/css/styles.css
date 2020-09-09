@@ -5616,6 +5616,10 @@ label {
           align-items: center;
 }
 
+.checkbox {
+  padding-bottom: 10px;
+}
+
 /*====== page formule ========*/
 #p-formule {
   width: 60%;
