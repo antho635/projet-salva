@@ -17354,4 +17354,15 @@ a:hover {
 }
 
 /*========== END Page login =========*/
+/*========== section calendar =========*/
+#calend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=layout.css.map */
